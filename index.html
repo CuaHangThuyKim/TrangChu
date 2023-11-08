@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG CHỦ</title>
+   <style> 
+   body{
+    margin: 0;
+   }
+    a{
+            color: white;
+            text-decoration: none;
+        }
+        #header :hover{
+            opacity: 0.5;
+           
+        }
+        #header{
+            display: flex;
+            color: #f2f2f2;
+            background-color: #0056b3;
+            margin-bottom: 20px;
+            height: fit-content;
+            justify-content: space-around;
+        }
+        #btn1,#btn2{
+            color: black;
+            width: 50%;
+            height: 25%;
+            
+            
+        }
+        #btn2:hover{
+            opacity: 0.5;
+        }
+        #btn1:hover{
+            opacity: 0.5;
+        }
+        #btn1{
+            width: 50%;
+            background-color: blue;
+            border-width: 5px;
+            border: solid;
+            padding: 50px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #btn2{
+            width: 50%;
+            background-color: green;
+            border-width: 5px;
+            border: solid;
+            padding: 50px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            margin-left: 35%;
+            margin-right: 20%;
+           
+            justify-content: space-around;
+            padding: 50px;
+            width: 40%;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div id="header">
+       <h1>WELCOME !</h1>
+    </div>
+    <div id="container">
+        <a id="btn1" href="https://cuahangthuykim.github.io/HoaDonKhachHang/">TẠO HOÁ ĐƠN</a><br>
+        <a id="btn2" href="https://cuahangthuykim.github.io/ToaHang/">TẠO TOA HÀNG</a><br>
+    </div>
+</body>
+</html>
