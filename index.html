@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,8 +38,11 @@
         #btn1:hover{
             opacity: 0.5;
         }
+         #btn3:hover{
+            opacity: 0.5;
+        }
         #btn1{
-            width: 50%;
+            width:fit-content;
             background-color: blue;
             border-width: 5px;
             border: solid;
@@ -46,11 +50,11 @@
             border-radius: 50px;
             color: white;
             font-weight: bold;
-            font-size: 30px;
+            font-size: 30px;border-color: black;
         }
 
         #btn2{
-            width: 50%;
+            width:fit-content;
             background-color: green;
             border-width: 5px;
             border: solid;
@@ -58,7 +62,7 @@
             border-radius: 50px;
             color: white;
             font-weight: bold;
-            font-size: 30px;
+            font-size: 30px;border-color: black;
         }
 
         #container {
@@ -66,10 +70,22 @@
             flex-direction: column;
             margin-left: 35%;
             margin-right: 20%;
-           
             justify-content: space-around;
             padding: 50px;
-            width: 40%;
+            width: fit-content;
+            
+        }
+        #btn3{
+            width:fit-content;
+            background-color: rgb(31, 210, 216);
+            border-width: 5px;
+            border: solid;
+            border-color: black;
+            padding: 50px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
         }
     </style>
 
@@ -80,8 +96,9 @@
        <h1>WELCOME !</h1>
     </div>
     <div id="container">
-        <a id="btn1" href="https://cuahangthuykim.github.io/HoaDonKhachHang/">TẠO HOÁ ĐƠN</a><br>
-        <a id="btn2" href="https://cuahangthuykim.github.io/ToaHang/">NHẬP HÀNG</a><br>
+        <a id="btn1" href="https://cuahangthuykim.github.io/HoaDonKhachHang/"><i class="fa-solid fa-receipt fa-xl" style="color: #ffffff;"></i> TẠO HOÁ ĐƠN </a><br>
+        <a id="btn2" href="https://cuahangthuykim.github.io/ToaHang/"><i class="fa-solid fa-layer-group fa-xl" style="color: #fafafa;"></i> NHẬP HÀNG HOÁ </a><br>
+        <a id="btn3" href=""><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i> TRA CỨU HÀNG HOÁ </a><br>
     </div>
 </body>
 </html>
